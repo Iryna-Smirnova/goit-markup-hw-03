@@ -69,6 +69,7 @@ a {
 .nav-list {
   display: flex;
   margin: 0;
+  padding: 0;
   margin-left: 93px;
 }
 
@@ -79,6 +80,7 @@ a {
 .info-list {
   display: flex;
   margin: 0;
+  padding: 0;
   margin-left: auto;
 }
 
@@ -117,7 +119,7 @@ a.current-page:visited {
 
 .hero-title {
   margin: 0;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
    
   color: var(--white-color);
   font-weight: 900;
@@ -128,14 +130,16 @@ a.current-page:visited {
 }
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
   text-align: center;
   background-color: #2f303a;
 }
 
 .hero-container {
   box-sizing: border-box;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  margin: 0 auto;
   line-break: auto;
 }
 
@@ -270,13 +274,21 @@ a.current-page:visited {
   margin-left: 30px;
 }
 
+.work-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* НАША КОМАНДА */
+
 .personal {
   padding: 30px 10px;
 }
 
 .team-title {
   margin: 0;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
  
 
   color: var(--primary-text-color);
@@ -373,8 +385,6 @@ a.current-page:visited {
   margin-bottom: 30px;
 
   background: var(--white-color);
-  border: 1px solid #EEEEEE;
-  
 }
 
 .working-list:nth-child(3n) {
@@ -385,13 +395,20 @@ a.current-page:visited {
   margin-bottom: 0;
 }
 
+.working-img {
+   display: block;
+   width: 100%;
+   height: auto;
+}
+
 .titled {
   padding: 20px 24px;
+  border: 1px solid #EEEEEE;
 }
 
 .working-exemple {
   margin: 0;
-  padding-bottom: 4px;
+  margin-bottom: 4px;
   
   color: var(--primary-text-color);
   font-weight: 700;
@@ -411,13 +428,14 @@ a.current-page:visited {
 /* footer */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   background-color: #2f303a;
 }
 
 .under {
   display: block;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .footer-logo {
